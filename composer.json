@@ -1,0 +1,21 @@
+{
+    "name": "kammishimoemon/persistence",
+    "description": "Object Persistence Mapper",
+    "type": "library",
+    "require-dev": {
+        "phpunit/phpunit": "^9.6"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Kammishimoemon\\Persistence\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Darío Candotti",
+            "email": "dario.candotti@gmail.com"
+        }
+    ],
+    "require": {}
+}

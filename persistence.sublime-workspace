@@ -1,0 +1,1080 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"re",
+				"resultSet"
+			],
+			[
+				"id_esta",
+				"id_establecimiento"
+			],
+			[
+				"carrera_esta",
+				"carrera_establecimiento"
+			],
+			[
+				"esta",
+				"establecimiento"
+			],
+			[
+				"id_es",
+				"id_establecimiento"
+			],
+			[
+				"eve",
+				"eventos_sobre_fila"
+			],
+			[
+				"eventos_",
+				"eventos_sobre_fila"
+			],
+			[
+				"est",
+				"establecimiento"
+			],
+			[
+				"func_get",
+				"func_get_args()"
+			],
+			[
+				"carre",
+				"carrera_establecimiento"
+			],
+			[
+				"asig",
+				"asignaturas"
+			],
+			[
+				"asign",
+				"asignatura"
+			],
+			[
+				"asigna",
+				"asignaturas"
+			],
+			[
+				"get_",
+				"get_nombre_by_id"
+			],
+			[
+				"observa",
+				"observaciones"
+			],
+			[
+				"valid",
+				"validez_nacional"
+			],
+			[
+				"id",
+				"id_estado_carrera"
+			],
+			[
+				"con",
+				"configurarFormulario"
+			],
+			[
+				"Conf",
+				"ConfiguradorPantalla"
+			],
+			[
+				"consul",
+				"consulta_respuesta"
+			],
+			[
+				"es",
+				"establecimiento_nombre"
+			],
+			[
+				"id_est",
+				"id_establecimiento"
+			],
+			[
+				"id_e",
+				"id_establecimiento"
+			],
+			[
+				"modFol",
+				"modFolder"
+			],
+			[
+				"mod",
+				"modFolders"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"import",
+				"importacion"
+			],
+			[
+				"impo",
+				"importacion"
+			],
+			[
+				"Sini",
+				"Sinide"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"install pac",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 142.0,
+		"history":
+		[
+			"open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen('http://sublime.wbond.net/' + pf.replace(' ', '%20')).read())",
+			"urllib.request.install_opener(urllib.request.build_opener(urllib.request.ProxyHandler()));",
+			"ipp = sublime.installed_packages_path();",
+			"pf = 'Package Control.sublime-package';",
+			"import urllib.request,os;",
+			"1+1"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/dcandotti/workspace/persistence",
+		"/C/Users/dcandotti/workspace/persistence/src",
+		"/C/Users/dcandotti/workspace/persistence/test"
+	],
+	"file_history":
+	[
+		"/C/Users/dcandotti/workspace/sisfetoo/test/integration/PDOTest.php",
+		"/C/Users/dcandotti/workspace/sisfetoo/test/unit/ModelsTest.php",
+		"/C/Users/dcandotti/workspace/sisfetoo/src/Subjects.php",
+		"/C/Users/dcandotti/workspace/sisfetoo/src/Models.php",
+		"/C/Users/dcandotti/workspace/sisfetoo/src/SubjectMetadata.php",
+		"/C/Users/dcandotti/workspace/sisfetoo/src/ClassMetadata.php",
+		"/C/Users/dcandotti/workspace/sisfetoo/src/Subject.php",
+		"/C/Users/dcandotti/workspace/sisfetoo/src/PropertyMetadata.php",
+		"/C/Users/dcandotti/workspace/sisfetoo/src/Criteria.php",
+		"/C/Users/dcandotti/workspace/sisfetoo/src/Criteria/EqualsStringCriteria.php",
+		"/C/Users/dcandotti/workspace/sisfetoo/src/Criteria/EqualsIntegerCriteria.php",
+		"/C/Users/dcandotti/workspace/sisfetoo/src/CriteriaVisitor.php",
+		"/C/Users/dcandotti/workspace/sisfetoo/src/Database.php",
+		"/C/Users/dcandotti/workspace/sisfetoo/src/PDODatabase.php",
+		"/C/Users/dcandotti/workspace/sisfetweb/grpc/Data_analytics/ServiciosClient.php",
+		"/C/Users/dcandotti/workspace/sisfetoo/src/main.php",
+		"/C/Users/dcandotti/workspace/sisfetoo/composer.json",
+		"/C/Users/dcandotti/workspace/sisfetweb/src/Toba/UsuarioBasico.php",
+		"/C/Users/dcandotti/workspace/sisfetweb/php/operaciones/gestion/carga_de_datos/ci_carga_de_datos.php",
+		"/C/Users/dcandotti/workspace/sisfetweb/php/nucleo/gestion/carga_de_datos/cn_carga_de_datos.php",
+		"/C/Users/dcandotti/workspace/sisfetweb/src/Tramite.php",
+		"/C/Users/dcandotti/workspace/sisfetweb/src/Tramite/Calificacion.php",
+		"/C/Users/dcandotti/workspace/sisfetweb/php/operaciones/gestion/carga_de_datos/ext_formulario_ml.php",
+		"/C/Users/dcandotti/workspace/sisfetweb/php/daos/dao_apex_usuario.php",
+		"/C/Users/dcandotti/workspace/sisfetweb/src/Auth/GrupoAcceso/AdministradorToba.php",
+		"/C/Users/dcandotti/workspace/sisfetweb/src/Auth/GrupoAcceso/AdministradorMinisterio.php",
+		"/C/Users/dcandotti/workspace/sisfetweb/src/Auth/GrupoAcceso/Institucional.php",
+		"/C/Users/dcandotti/workspace/sisfetweb/src/Auth/GrupoAcceso/Supervisor.php",
+		"/C/Users/dcandotti/workspace/sisfetweb/src/Jurisdiccion.php",
+		"/C/Users/dcandotti/workspace/sisfetweb/src/Auth/GrupoAcceso.php",
+		"/C/Users/dcandotti/workspace/sisfetweb/src/Auth/Sesion.php",
+		"/C/Users/dcandotti/workspace/sisfetweb/php/operaciones/gestion/carreras/ci_carreras.php",
+		"/C/Users/dcandotti/workspace/sisfetweb/php/daos/dao_asignatura.php",
+		"/C/Users/dcandotti/workspace/sisfetweb/php/daos/dao_tramite.php",
+		"/C/Users/dcandotti/workspace/sisfetweb/entorno_toba.env",
+		"/C/Program Files/Apache/httpd-2.4.54-win64-VS16/conf/httpd.conf",
+		"/C/Users/dcandotti/workspace/sisfetweb/instalacion/toba.conf",
+		"/C/Users/dcandotti/workspace/sisfetweb/vendor/siu-toba/framework/php/nucleo/lib/toba_instalacion.php",
+		"/C/Users/dcandotti/workspace/sisfetweb/proyecto.ini",
+		"/C/Users/dcandotti/workspace/sisfetweb/php/operaciones/gestion/carga_de_datos/ext_formulario.php",
+		"/C/Users/dcandotti/workspace/sisfetweb/php/daos/dao_carrera.php",
+		"/C/Users/dcandotti/workspace/sisfetweb/php/daos/dao_carrera_asignatura.php",
+		"/C/Users/dcandotti/workspace/sisfetweb/src/Alumno.php",
+		"/C/Users/dcandotti/workspace/sisfetweb/composer.lock",
+		"/C/Users/dcandotti/workspace/intval.php",
+		"/C/Users/dcandotti/workspace/sisfetweb/src/Auth/Usuario.php",
+		"/C/Users/dcandotti/workspace/sisfetweb/src/CondicionAprobado/Regular.php",
+		"/C/Users/dcandotti/workspace/sisfetweb/php/utiles/utiles.php",
+		"/C/Users/dcandotti/workspace/sisfetweb/src/CondicionAprobado/Promocion.php",
+		"/C/Users/dcandotti/workspace/sisfetweb/php/operaciones/gestion/carreras/ml_normas_aprobacion.php",
+		"/C/Users/dcandotti/workspace/sisfetweb/php/operaciones/gestion/evaluacion/ci_evaluacion.php",
+		"/C/Users/dcandotti/workspace/sisfetweb/src/CondicionAprobado/Correspondencia.php",
+		"/C/Users/dcandotti/workspace/sisfetweb/sql/public/condicion_aprobado.sql",
+		"/C/Users/dcandotti/workspace/sisfetweb/src/CondicionAprobado.php",
+		"/C/Users/dcandotti/workspace/preg_match.php",
+		"/C/Users/dcandotti/workspace/sisfetweb/php/operaciones/gestion/seguimiento_tramite/cn_carga_de_datos.php",
+		"/C/Users/dcandotti/workspace/is_numeric.php",
+		"/C/Users/dcandotti/workspace/floatval.php",
+		"/C/Users/dcandotti/workspace/sisfetweb/src/Toba/ControladorConFiltro.php",
+		"/C/Users/dcandotti/workspace/sisfetweb/php/extension_toba/componentes/sisfetweb_ei_formulario.php",
+		"/C/Users/dcandotti/workspace/sisfetweb/src/Auth/GrupoAcceso/Firmante.php",
+		"/C/Users/dcandotti/workspace/sisfetweb/src/Auth/GrupoAcceso/AreaCentral.php",
+		"/C/Users/dcandotti/workspace/sisfetweb/php/daos/dao_establecimiento.php",
+		"/C/Users/dcandotti/workspace/sisfetweb/vendor/siu-toba/framework/php/nucleo/componentes/interface/toba_ei_cuadro_salida_html.php",
+		"/C/Users/dcandotti/workspace/sisfetweb/vendor/siu-toba/framework/php/nucleo/componentes/interface/toba_ei_cuadro.php",
+		"/C/Users/dcandotti/workspace/sisfetweb/php/extension_toba/componentes/sisfetweb_ei_cuadro.php",
+		"/C/Users/dcandotti/workspace/sisfetweb/vendor/siu-toba/framework/php/nucleo/componentes/interface/toba_ei.php",
+		"/C/Users/dcandotti/workspace/sisfetweb/vendor/siu-toba/framework/php/nucleo/componentes/toba_componente.php",
+		"/C/Users/dcandotti/workspace/sisfetweb/php/login/cuadro_autologin.php",
+		"/C/Users/dcandotti/workspace/sisfetweb/tmp/backup/data.sql",
+		"/C/Users/dcandotti/workspace/sisfetweb/tmp/backup/sisfetweb-schema.sql",
+		"/C/Users/dcandotti/workspace/sisfetweb/tmp/backup/sisfetweb-data.sql",
+		"/C/Users/dcandotti/workspace/sisfetweb/tmp/sisfetweb.sql",
+		"/C/Users/dcandotti/workspace/sisfetweb/sql/47015.sql",
+		"/C/Users/dcandotti/workspace/sisfetweb/sql/public/carrera_establecimiento.sql",
+		"/C/Users/dcandotti/workspace/sisfetweb/php/operaciones/gestion/carreras/ml_establecimientos.php",
+		"/C/Users/dcandotti/workspace/sisfetweb/php/operaciones/administracion/usuarios/ml_establecimientos.php",
+		"/C/Users/dcandotti/workspace/sisfetweb/src/TipoNormaJurisdiccional/Resolucion.php",
+		"/C/Users/dcandotti/workspace/sisfetweb/src/TipoNormaJurisdiccional/Acuerdo.php",
+		"/C/Users/dcandotti/workspace/sisfetweb/sql/public/tipo_norma_jurisdiccional.sql",
+		"/C/Users/dcandotti/workspace/sisfetweb/sql/46998.sql",
+		"/C/Users/dcandotti/workspace/sisfetweb/src/TipoNormaJurisdiccional.php",
+		"/C/Users/dcandotti/workspace/sisfetweb/sql/46999.sql",
+		"/C/Users/dcandotti/workspace/sisfetweb/src/CondicionAprobado/Homologado.php",
+		"/C/Users/dcandotti/workspace/sisfetweb/src/CondicionAprobado/NoRegular.php",
+		"/C/Users/dcandotti/workspace/sisfetweb/src/CondicionAprobado/Movilidad.php",
+		"/C/Users/dcandotti/workspace/sisfetweb/php/operaciones/gestion/carreras/form_observaciones.php",
+		"/C/Users/dcandotti/workspace/sisfetweb/php/operaciones/gestion/carreras/form_carrera.php",
+		"/C/Users/dcandotti/workspace/sisfetweb/php/operaciones/gestion/evaluacion/form_observaciones.php",
+		"/C/Users/dcandotti/workspace/sisfetweb/php/login/ci_login.php",
+		"/C/Users/dcandotti/workspace/sisfetweb/php/operaciones/administracion/establecimiento/ext_formulario.php",
+		"/C/Users/dcandotti/workspace/sisfetweb/php/operaciones/gestion/carreras/ml_con_al_menos_una_linea.php",
+		"/C/Users/dcandotti/workspace/sisfetweb/php/operaciones/gestion/carreras/ml_asignaturas.php",
+		"/C/Users/dcandotti/workspace/sisfetweb/php/operaciones/gestion/seguimiento_tramite/ext_formulario_ml.php",
+		"/C/Users/dcandotti/workspace/sisfetweb/php/operaciones/gestion/seguimiento_tramite/ext_formulario.php",
+		"/C/Users/dcandotti/workspace/sisfetweb/php/operaciones/gestion/seguimiento_tramite/ext_filtro.php",
+		"/C/Users/dcandotti/workspace/sisfetweb/www/css/extras.css",
+		"/C/Users/dcandotti/workspace/sisfetweb/sql/public/estado_carrera.sql",
+		"/C/Users/dcandotti/workspace/sisfetweb/src/Carrera.php",
+		"/C/Users/dcandotti/workspace/sisfetweb/php/operaciones/gestion/seguimiento_tramite/ci_seguimiento_tramite.php",
+		"/C/Users/dcandotti/workspace/sisfetweb/php/daos/dao_estado_carrera.php",
+		"/C/Users/dcandotti/workspace/sisfetweb/src/Util/Momento.php",
+		"/C/Users/dcandotti/workspace/sisfetweb/src/Tramite/TramiteEstado.php",
+		"/C/Users/dcandotti/workspace/sisfetweb/src/Auth/GrupoAcceso/AdministradorDatos.php",
+		"/C/Users/dcandotti/workspace/sisfetweb/php/extension_toba/componentes/sisfetweb_ei_pantalla.php",
+		"/C/Users/dcandotti/workspace/sisfetweb/src/Toba/ConfiguradorPantalla.php",
+		"/C/Users/dcandotti/workspace/pedidos-spu/vendor/siu-toba/framework/instalacion/toba.conf",
+		"/C/Users/dcandotti/workspace/pedidos-spu/proyecto.ini",
+		"/C/Users/dcandotti/workspace/pedidos-spu/composer.json",
+		"/C/Users/dcandotti/workspace/sisfetweb/sql/46877.sql",
+		"/C/Users/dcandotti/workspace/pedidos-bnh/composer.json",
+		"/C/Users/dcandotti/workspace/pedidos-bnh/php/importadores_gui/estado_importacion/descargar_informe.php",
+		"/C/Users/dcandotti/workspace/pedidos-bnh/php/importadores_gui/estado_general/ci_estado_general.php",
+		"/C/Users/dcandotti/workspace/pedidos-bnh/php/importadores_gui/enviar_lote/form_enviar_lote.php",
+		"/C/Users/dcandotti/workspace/pedidos-bnh/php/importadores_gui/enviar_lote/disparar_ultimo_paso_rhun.php",
+		"/C/Users/dcandotti/workspace/pedidos-bnh/php/importadores_gui/enviar_lote/disparar_importacion.php",
+		"/C/Users/dcandotti/workspace/pedidos-bnh/php/importadores_gui/decarga_becas/descargar.php",
+		"/C/Users/dcandotti/workspace/pedidos-bnh/php/prueba_del_mail.php",
+		"/C/Users/dcandotti/workspace/sisfetweb/sql/public/carrera_con_ultimo_estado.sql",
+		"/C/Users/dcandotti/workspace/sisfetweb/php/datos/data_analytics/dt_analitico_respuesta.php",
+		"/C/Users/dcandotti/workspace/sisfetweb/php/operaciones/gestion/seguimiento_tramite/ext_cuadro.php",
+		"/C/Users/dcandotti/workspace/sisfetweb/proto/coursework-certificate.proto",
+		"/C/Users/dcandotti/workspace/sisfetweb/src/Tramite/Firmador/AnaliticoEstado/Error.php",
+		"/C/Users/dcandotti/workspace/sisfetweb/src/Tramite/Firmador/Reporte/ReporteMultiple.php",
+		"/C/Users/dcandotti/workspace/sisfetweb/sql/public/carrera_estado.sql",
+		"/C/Users/dcandotti/workspace/sisfetweb/php/operaciones/gestion/asignaturas/ci_asignaturas.php",
+		"/C/Users/dcandotti/workspace/sisfetweb/src/Tramite/Firmador/FirmadorEspinlabs.php",
+		"/C/Users/dcandotti/workspace/sisfetweb/src/Util/Seguridad/OAuth.php"
+	],
+	"find":
+	{
+		"height": 29.0
+	},
+	"find_in_files":
+	{
+		"height": 107.0,
+		"where_history":
+		[
+			"C:\\Users\\dcandotti\\workspace\\sisfetweb",
+			"C:\\Users\\dcandotti\\workspace\\sisfetweb\\vendor\\siu-toba\\framework,<project filters>",
+			"C:\\Users\\dcandotti\\workspace\\sisfetweb",
+			"C:\\Users\\dcandotti\\workspace\\sisfetweb,<project filters>",
+			"C:\\Users\\dcandotti\\workspace\\sicerws",
+			"C:\\Users\\dcandotti\\workspace\\pedidos-bnh",
+			"C:\\Users\\dcandotti\\workspace\\sisfetweb",
+			"<project filters>",
+			"C:\\Program Files (x86)\\Steam\\steamapps\\workshop\\content\\108600,*.lua",
+			"C:\\Program Files (x86)\\Steam\\steamapps\\common\\ProjectZomboid,C:\\Users\\dcandotti\\Zomboid",
+			"C:\\Program Files (x86)\\Steam\\steamapps\\common\\ProjectZomboid",
+			"C:\\Users\\dcandotti\\Zomboid\\java",
+			"C:\\Users\\dcandotti\\Zomboid",
+			"C:\\Program Files (x86)\\Steam\\steamapps\\common\\ProjectZomboid",
+			"C:\\Program Files (x86)\\Steam\\steamapps\\common\\ProjectZomboid,<project filters>",
+			"",
+			"C:\\Users\\dcandotti\\Zomboid\\java\\zombie,<project filters>",
+			"C:\\Program Files (x86)\\Steam\\steamapps\\common\\ProjectZomboid",
+			"C:\\Program Files (x86)\\Steam\\steamapps\\common\\ProjectZomboid,*.class",
+			"C:\\Program Files (x86)\\Steam\\steamapps\\common\\ProjectZomboid",
+			"C:\\Program Files (x86)\\Steam\\steamapps\\workshop\\content\\108600\\2834352171",
+			"C:\\Program Files (x86)\\Steam\\steamapps\\workshop\\content\\108600\\2834352171,*.txt",
+			"C:\\Program Files (x86)\\Steam\\steamapps\\workshop\\content\\108600,*.txt",
+			"C:\\Program Files (x86)\\Steam\\steamapps\\workshop\\content\\108600\\2834352171\\mods,*.txt",
+			"*.txt"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"$db",
+			"Database",
+			"EqualsStringCriteria",
+			"pre_r",
+			"ctr_tramites_asignaturas",
+			"revisar_tramite",
+			"revision",
+			"form_asignaturas",
+			"s__id_carrera_a_copiar",
+			"copiar_asignaturas",
+			"instalacion",
+			"actualizar_formulario",
+			"getCarrerasSegunUsuario",
+			"get_tramite_asignatura",
+			"formulario_ml",
+			"getCarrerasSegunUsuario",
+			"?",
+			"anio",
+			"enviarSinFirma",
+			"calificaciones",
+			"enviarSinFirmaNotas",
+			"calificaciones",
+			"agregarCalificacion",
+			"revisar_tramite",
+			"ctr_tramites_asignaturas",
+			"ctr_tramite",
+			"no tiene condi",
+			"enviar_revision",
+			"ctualizar_formulario",
+			"actualizar_formulario",
+			"id_carrera",
+			"alfanumer",
+			"nota",
+			"mb_",
+			"get_datos_carrera",
+			"getCarrerasSegunUsuario",
+			"preg_match",
+			"intval",
+			"is_numeric",
+			"print_r",
+			"promedio",
+			"s__asignaturas_tmp",
+			"ctr_asignaturas",
+			"nota",
+			"actualizar_formulario",
+			"arraySortBy",
+			"asignaturas",
+			"copiar_asigna",
+			"utiles",
+			"actualizar_formulario",
+			"id_carrera",
+			"getCarrerasSegunUsuario",
+			"ctrAnioAsignatura",
+			"asignaturas",
+			"asigna",
+			"ml_asigna",
+			"descripcion_larga",
+			"consultar",
+			"$where = [];",
+			"get_carreras",
+			"pant_tramite",
+			"getWhereFiltro",
+			"use",
+			"ctrAnioAsignatura",
+			"html_cuadro_celda_evento",
+			"generar_layout_fila",
+			"html_cuadro_cabecera_columnas",
+			"html_cuadro_cabecera_columna_evento",
+			"pre_r",
+			"get_eventos",
+			"generar_botones",
+			"generar_html",
+			"_manejador_tipo_salida",
+			"$this->_salida =",
+			"_salida",
+			"html_cuadro_cabecera_columna_evento",
+			"html_cuadro_cabecera_columnas",
+			"html_cuadro",
+			"generar_cuadro(",
+			"html_cuadro",
+			"_cuadro",
+			"_cuadro(",
+			"_cuadro",
+			"html_",
+			"_tipo_salida",
+			"html_cuadro",
+			"generar_cuadro",
+			"generar_botones",
+			"toba_ei_cuadro",
+			"class toba_ei_cuadro",
+			"pant_",
+			"configurarFiltro",
+			"evt__filtro__cancelar",
+			"CREATE TYPE",
+			"CREATE",
+			"create type",
+			"mood",
+			"sitrared",
+			"guardar_borrador",
+			"getEstablecimientosSegunUsuario",
+			"filtroEstablecimientos",
+			"getEstadosSegunUsuario",
+			"usuario()->",
+			"get_datos_carreras",
+			"establecimiento_carrera",
+			"s__en_edicion",
+			"pre_r",
+			"Hay asigna",
+			"Hay asig",
+			"pre_r",
+			"pant_edicion",
+			"pre_r",
+			"pant_detalle",
+			"pre_r",
+			"setAttribute",
+			"pre_r",
+			"s__id_carrera_a_copiar",
+			"s__observaciones",
+			"pre_r",
+			"form_observaciones",
+			"extender_objeto_js",
+			"s__observaciones",
+			"evt_recha",
+			"pre_r",
+			"evt__copiar_asignaturas",
+			"get_nombre",
+			"document.getElementById('ci_85000041_copiar_asignaturas')",
+			"ci_2329_crear_carrera"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"$visitor",
+			"CriteriaVisitor",
+			"floatval",
+			"intval",
+			"var_dump",
+			"s__ejecutar_modificacion",
+			"evento",
+			"ci_85000008_nueva_carrera",
+			"mb_convert_case",
+			"$no_aplica",
+			"Mod",
+			"\\t",
+			"DebugLog:log",
+			"DebugLog.log",
+			"\\t",
+			"parent",
+			"\\t"
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 29.0
+	},
+	"input":
+	{
+		"height": 41.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "persistence.sublime-project",
+	"replace":
+	{
+		"height": 54.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"subjec",
+				"src\\Subject.php"
+			],
+			[
+				"main",
+				"src\\main.php"
+			],
+			[
+				"Crite",
+				"src\\Criteria.php"
+			],
+			[
+				"datbas",
+				"src\\Database.php"
+			],
+			[
+				"pdo",
+				"src\\PDODatabase.php"
+			],
+			[
+				"Modelste",
+				"test\\unit\\ModelsTest.php"
+			],
+			[
+				"Proper",
+				"src\\Property.php"
+			],
+			[
+				"Met",
+				"src\\Metadata.php"
+			],
+			[
+				"subject met",
+				"src\\SubjectMetadata.php"
+			],
+			[
+				"Subjects",
+				"src\\Subjects.php"
+			],
+			[
+				"Pdote",
+				"test\\integration\\PDOTest.php"
+			],
+			[
+				"compo",
+				"composer.json"
+			],
+			[
+				"Models",
+				"src\\Models.php"
+			],
+			[
+				"usuariobasi",
+				"src\\Toba\\UsuarioBasico.php"
+			],
+			[
+				"dao_apex_usu",
+				"php\\daos\\dao_apex_usuario.php"
+			],
+			[
+				"ext_formulario_ml",
+				"php\\operaciones\\gestion\\carga_de_datos\\ext_formulario_ml.php"
+			],
+			[
+				"ci carga de da",
+				"php\\operaciones\\gestion\\carga_de_datos\\ci_carga_de_datos.php"
+			],
+			[
+				"cn carga de ",
+				"php\\nucleo\\gestion\\carga_de_datos\\cn_carga_de_datos.php"
+			],
+			[
+				"ci carga de ",
+				"php\\operaciones\\gestion\\carga_de_datos\\ci_carga_de_datos.php"
+			],
+			[
+				"ci_carrer",
+				"php\\operaciones\\gestion\\carreras\\ci_carreras.php"
+			],
+			[
+				"ext_formu",
+				"sisfetweb\\php\\operaciones\\gestion\\carga_de_datos\\ext_formulario.php"
+			],
+			[
+				"cn carga de da",
+				"sisfetweb\\php\\nucleo\\gestion\\carga_de_datos\\cn_carga_de_datos.php"
+			],
+			[
+				"ci_carga_de",
+				"sisfetweb\\php\\operaciones\\gestion\\carga_de_datos\\ci_carga_de_datos.php"
+			],
+			[
+				"cn_carga_de_datos",
+				"sisfetweb\\php\\nucleo\\gestion\\carga_de_datos\\cn_carga_de_datos.php"
+			],
+			[
+				"ci_carga_de_datos",
+				"sisfetweb\\php\\operaciones\\gestion\\carga_de_datos\\ci_carga_de_datos.php"
+			],
+			[
+				"cn_carga_",
+				"sisfetweb\\php\\nucleo\\gestion\\carga_de_datos\\cn_carga_de_datos.php"
+			],
+			[
+				"ci_carga_",
+				"sisfetweb\\php\\operaciones\\gestion\\carga_de_datos\\ci_carga_de_datos.php"
+			],
+			[
+				"utile",
+				"sisfetweb\\php\\utiles\\utiles.php"
+			],
+			[
+				"cn_carga",
+				"sisfetweb\\php\\nucleo\\gestion\\carga_de_datos\\cn_carga_de_datos.php"
+			],
+			[
+				"ci_carga",
+				"sisfetweb\\php\\operaciones\\gestion\\carga_de_datos\\ci_carga_de_datos.php"
+			],
+			[
+				"ci_evalua",
+				"sisfetweb\\php\\operaciones\\gestion\\evaluacion\\ci_evaluacion.php"
+			],
+			[
+				"ci evaluacion",
+				"sisfetweb\\php\\operaciones\\gestion\\evaluacion\\ci_evaluacion.php"
+			],
+			[
+				"condicion sql",
+				"sisfetweb\\sql\\public\\condicion_aprobado.sql"
+			],
+			[
+				"condiciona",
+				"sisfetweb\\src\\CondicionAprobado.php"
+			],
+			[
+				"utiles",
+				"sisfetweb\\php\\utiles\\utiles.php"
+			],
+			[
+				"cn_carga_de",
+				"sisfetweb\\php\\nucleo\\gestion\\carga_de_datos\\cn_carga_de_datos.php"
+			],
+			[
+				"ext formulario ",
+				"sisfetweb\\php\\operaciones\\gestion\\carga_de_datos\\ext_formulario_ml.php"
+			],
+			[
+				"ci carga de dat",
+				"sisfetweb\\php\\operaciones\\gestion\\carga_de_datos\\ci_carga_de_datos.php"
+			],
+			[
+				"ci_carr",
+				"sisfetweb\\php\\operaciones\\gestion\\carreras\\ci_carreras.php"
+			],
+			[
+				"ci carga",
+				"sisfetweb\\php\\operaciones\\gestion\\carga_de_datos\\ci_carga_de_datos.php"
+			],
+			[
+				"ci_ca",
+				"sisfetweb\\php\\operaciones\\gestion\\carreras\\ci_carreras.php"
+			],
+			[
+				"dao_carrera",
+				"sisfetweb\\php\\daos\\dao_carrera.php"
+			],
+			[
+				"ci carga de datos",
+				"sisfetweb\\php\\operaciones\\gestion\\carga_de_datos\\ci_carga_de_datos.php"
+			],
+			[
+				"salida html",
+				"framework\\php\\nucleo\\componentes\\interface\\toba_ei_cuadro_salida_html.php"
+			],
+			[
+				"toba_componen",
+				"framework\\php\\nucleo\\componentes\\toba_componente.php"
+			],
+			[
+				"toba_ei",
+				"framework\\php\\nucleo\\componentes\\interface\\toba_ei.php"
+			],
+			[
+				"ci_carrera",
+				"sisfetweb\\php\\operaciones\\gestion\\carreras\\ci_carreras.php"
+			],
+			[
+				"dao esta",
+				"sisfetweb\\php\\daos\\dao_establecimiento.php"
+			],
+			[
+				"sisfet",
+				"sisfetweb\\tmp\\sisfetweb.sql"
+			],
+			[
+				"ml_esta",
+				"sisfetweb\\php\\operaciones\\gestion\\carreras\\ml_establecimientos.php"
+			],
+			[
+				"firmante",
+				"sisfetweb\\src\\Auth\\GrupoAcceso\\Firmante.php"
+			],
+			[
+				"ci_carre",
+				"sisfetweb\\php\\operaciones\\gestion\\carreras\\ci_carreras.php"
+			],
+			[
+				"ci carrera",
+				"sisfetweb\\php\\operaciones\\gestion\\carreras\\ci_carreras.php"
+			],
+			[
+				"ci carrer",
+				"sisfetweb\\php\\operaciones\\gestion\\carreras\\ci_carreras.php"
+			],
+			[
+				"form obser",
+				"sisfetweb\\php\\operaciones\\gestion\\carreras\\form_observaciones.php"
+			],
+			[
+				"dao_carrer",
+				"sisfetweb\\php\\daos\\dao_carrera.php"
+			],
+			[
+				"ci carreras",
+				"sisfetweb\\php\\operaciones\\gestion\\carreras\\ci_carreras.php"
+			],
+			[
+				"form carrer",
+				"sisfetweb\\php\\operaciones\\gestion\\carreras\\form_carrera.php"
+			],
+			[
+				"form_carr",
+				"sisfetweb\\php\\operaciones\\gestion\\carreras\\form_carrera.php"
+			],
+			[
+				"estado_ca",
+				"sisfetweb\\sql\\public\\estado_carrera.sql"
+			],
+			[
+				"carrer",
+				"sisfetweb\\src\\Carrera.php"
+			],
+			[
+				"form carr",
+				"sisfetweb\\php\\operaciones\\gestion\\carreras\\form_carrera.php"
+			],
+			[
+				"Usua",
+				"sisfetweb\\src\\Auth\\Usuario.php"
+			],
+			[
+				"UsuarioBas",
+				"sisfetweb\\src\\Toba\\UsuarioBasico.php"
+			],
+			[
+				"dao_apex",
+				"sisfetweb\\php\\daos\\dao_apex_usuario.php"
+			],
+			[
+				"dao_estado_c",
+				"sisfetweb\\php\\daos\\dao_estado_carrera.php"
+			],
+			[
+				"estado_c",
+				"sisfetweb\\sql\\public\\estado_carrera.sql"
+			],
+			[
+				"Carrera",
+				"sisfetweb\\src\\Carrera.php"
+			],
+			[
+				".proto",
+				"sisfetweb\\proto\\coursework-certificate.proto"
+			],
+			[
+				"ci asigna",
+				"sisfetweb\\php\\operaciones\\gestion\\asignaturas\\ci_asignaturas.php"
+			],
+			[
+				"carga de datos",
+				"sisfetweb\\php\\nucleo\\gestion\\carga_de_datos\\cn_carga_de_datos.php"
+			],
+			[
+				"ci evaluacio",
+				"sisfetweb\\php\\operaciones\\gestion\\evaluacion\\ci_evaluacion.php"
+			],
+			[
+				"grupo acceso",
+				"sisfetweb\\src\\Auth\\GrupoAcceso.php"
+			],
+			[
+				"ext filtro",
+				"sisfetweb\\php\\operaciones\\gestion\\seguimiento_tramite\\ext_filtro.php"
+			],
+			[
+				"firmador",
+				"sisfetweb\\src\\Tramite\\Firmador\\FirmadorEspinlabs.php"
+			],
+			[
+				"cn carga de",
+				"php\\operaciones\\gestion\\seguimiento_tramite\\cn_carga_de_datos.php"
+			],
+			[
+				"ci segui",
+				"php\\operaciones\\gestion\\seguimiento_tramite\\ci_seguimiento_tramite.php"
+			],
+			[
+				"ci evalua",
+				"php\\operaciones\\gestion\\evaluacion\\ci_evaluacion.php"
+			],
+			[
+				"proto",
+				"proto\\coursework-certificate.proto"
+			],
+			[
+				"dao tramit",
+				"php\\daos\\dao_tramite.php"
+			],
+			[
+				"dao_tramite",
+				"php\\daos\\dao_tramite.php"
+			],
+			[
+				"carga datos",
+				"php\\operaciones\\gestion\\seguimiento_tramite\\cn_carga_de_datos.php"
+			],
+			[
+				"seguimiento",
+				"php\\operaciones\\gestion\\seguimiento_tramite\\ci_seguimiento_tramite.php"
+			],
+			[
+				"ci usuario",
+				"php\\operaciones\\administracion\\usuarios\\ci_usuarios.php"
+			],
+			[
+				"ci evaluac",
+				"php\\operaciones\\gestion\\evaluacion\\ci_evaluacion.php"
+			],
+			[
+				"dao_car",
+				"php\\daos\\dao_carrera.php"
+			],
+			[
+				"consulta respues",
+				"php\\datos\\data_analytics\\dt_consulta_respuesta.php"
+			],
+			[
+				"carga de dat",
+				"php\\nucleo\\gestion\\carga_de_datos\\cn_carga_de_datos.php"
+			],
+			[
+				"dao carrera",
+				"php\\daos\\dao_carrera.php"
+			],
+			[
+				"dao_ca",
+				"php\\daos\\dao_carrera.php"
+			],
+			[
+				"dao_consulta_re",
+				"php\\datos\\data_analytics\\dt_consulta_respuesta.php"
+			],
+			[
+				"carga de da",
+				"php\\operaciones\\gestion\\seguimiento_tramite\\cn_carga_de_datos.php"
+			],
+			[
+				"dao_trami",
+				"php\\daos\\dao_tramite.php"
+			],
+			[
+				"ci_carga de dat",
+				"php\\operaciones\\gestion\\carga_de_datos\\ci_carga_de_datos.php"
+			],
+			[
+				"ci_evalu",
+				"php\\operaciones\\gestion\\evaluacion\\ci_evaluacion.php"
+			],
+			[
+				"DebugTy",
+				"Zomboid\\java\\zombie\\debug\\DebugType.java"
+			],
+			[
+				"LuaHook",
+				"Zomboid\\java\\zombie\\Lua\\LuaHookManager.java"
+			],
+			[
+				"LuaMa",
+				"Zomboid\\java\\zombie\\Lua\\LuaManager.java"
+			],
+			[
+				"GlobalObjec",
+				"Zomboid\\java\\zombie\\globalObjects\\GlobalObject.java"
+			],
+			[
+				"ItemType",
+				"Zomboid\\java\\zombie\\inventory\\ItemType.java"
+			],
+			[
+				"Userlog",
+				"Zomboid\\java\\zombie\\network\\Userlog.java"
+			],
+			[
+				"BSFur",
+				"Zomboid\\java\\zombie\\iso\\objects\\BSFurnace.java"
+			],
+			[
+				"ZomboidRadio",
+				"Zomboid\\java\\zombie\\radio\\ZomboidRadio.java"
+			],
+			[
+				"LuaEventMana",
+				"Zomboid\\java\\zombie\\Lua\\LuaEventManager.java"
+			],
+			[
+				"LosUtil",
+				"Zomboid\\java\\zombie\\iso\\LosUtil.java"
+			],
+			[
+				"MetaO",
+				"Zomboid\\java\\zombie\\iso\\MetaObject.java"
+			],
+			[
+				"DebugGlo",
+				"Zomboid\\java\\zombie\\gameStates\\DebugGlobalObjectState.java"
+			],
+			[
+				"DebugType",
+				"Zomboid\\java\\zombie\\debug\\DebugType.java"
+			],
+			[
+				"DebugLog",
+				"Zomboid\\java\\zombie\\debug\\DebugLog.java"
+			],
+			[
+				"Zlogger",
+				"Zomboid\\java\\zombie\\core\\logger\\ZLogger.java"
+			],
+			[
+				"items_foo",
+				"ProjectZomboid\\media\\scripts\\items_food.txt"
+			],
+			[
+				".properties",
+				"ProjectZomboid\\jre64\\conf\\net.properties"
+			],
+			[
+				"UI_EN",
+				"ProjectZomboid\\media\\lua\\shared\\Translate\\EN\\UI_EN.txt"
+			],
+			[
+				"",
+				"chapter-2\\2-2.lua"
+			],
+			[
+				"2",
+				"chapter-2\\2-2.lua"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\Users\\dcandotti\\workspace\\sisfetweb\\sisfetweb.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 369.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
