@@ -1,21 +1,21 @@
 {
-    "name": "kammishimoemon/persistence",
-    "description": "Object Persistence Mapper",
-    "type": "library",
-    "require-dev": {
-        "phpunit/phpunit": "^9.6"
-    },
-    "license": "MIT",
-    "autoload": {
-        "psr-4": {
-            "Kammishimoemon\\Persistence\\": "src/"
-        }
-    },
-    "authors": [
-        {
-            "name": "Darío Candotti",
-            "email": "dario.candotti@gmail.com"
-        }
-    ],
-    "require": {}
+	"name": "kamishimoemon/persistence",
+	"description": "Object Persistence",
+	"type": "library",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Darío Candotti",
+			"email": "dario.candotti@gmail.com"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"Kamishimoemon\\Persistence\\": "src/"
+		}
+	},
+	"require": {},
+	"require-dev": {
+		"phpunit/phpunit": "^9.6"
+	}
 }
