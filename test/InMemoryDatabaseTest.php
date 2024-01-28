@@ -84,4 +84,18 @@ class InMemoryDatabaseTest extends TestCase
 
 		$this->assertEquals(1, $collection->count());
 	}
+
+	/**
+	 * @test
+	 */
+	public function databasesShouldBeSetsNotCollections (): void
+	{
+		$db = new InMemoryDatabase();
+
+		$po = new PersistableObject();
+		$id1 = $db->add($po);
+		$id2 = $db->add($po);
+
+		$this->assertEquals($id1, $id2);
+	}
 }

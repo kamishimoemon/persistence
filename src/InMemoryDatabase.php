@@ -12,6 +12,10 @@ class InMemoryDatabase
 
 	public function add (PersistableObject $po): int
 	{
+		$id = array_search($po, $this->objects);
+		if (is_int($id)) {
+			return $id + 1;
+		}
 		$this->objects[] = $po;
 		return count($this->objects);
 	}
