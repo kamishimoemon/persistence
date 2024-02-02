@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Kamishimoemon\Persistence;
 
-class PersistableObject
+abstract class PersistableObject
 {
-
+	public abstract function memento (): Memento;
 }

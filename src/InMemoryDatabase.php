@@ -6,7 +6,7 @@ namespace Kamishimoemon\Persistence;
 
 use Closure;
 
-class InMemoryDatabase
+class InMemoryDatabase implements Database
 {
 	private array $objects = [];
 
