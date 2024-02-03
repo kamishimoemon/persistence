@@ -6,6 +6,8 @@ namespace Kamishimoemon\Persistence;
 
 use Closure;
 use SimpleXMLElement;
+use ReflectionClass;
+use ReflectionProperty;
 
 use function simplexml_load_file;
 
@@ -24,13 +26,15 @@ class XMLDatabase implements Database
 
 	public function add (PersistableObject $po): int
 	{
+		$memento = $po->memento();
 		$repositories = simplexml_load_file($this->filename);
 		foreach ($repositories->repository as $repository) {
 			if (strval($repository["class"]) == get_class($po)) {
 				$currentId = intval($repository["sequence"]);
 				$id = $currentId + 1;
-				$child = $repository->addChild(str_replace("\\", ".", get_class($po)));
-				$po->memento()->accept(new XMLMementoVisitor($child));
+				$child = $repository->addChild(str_replace("\\", ".", get_class($memento)));
+				$child->addAttribute("id", strval($id));
+				$memento->accept(new XMLMementoVisitor($child));
 				$repository["sequence"] = strval($id);
 				$repositories->asXML($this->filename);
 				return $id;
@@ -40,23 +44,40 @@ class XMLDatabase implements Database
 		$repository = $repositories->addChild("repository");
 		$repository->addAttribute("class", get_class($po));
 		$repository->addAttribute("sequence", "1");
-		$child = $repository->addChild(str_replace("\\", ".", get_class($po)));
-		$po->memento()->accept(new XMLMementoVisitor($child));
+		$child = $repository->addChild(str_replace("\\", ".", get_class($memento)));
+		$child->addAttribute("id", "1");
+		$memento->accept(new XMLMementoVisitor($child));
 		$repositories->asXML($this->filename);
 		return 1;
 	}
 
-	public function remove (int $id): void
+	public function remove (string $persistableClass, int $id): void
 	{
 		throw new \Exception("Method not implemented yet");
 	}
 
-	public function get (int $id): ?PersistableObject
+	public function get (string $persistableClass, int $id): ?PersistableObject
 	{
-		throw new \Exception("Method not implemented yet");
+		$repositories = simplexml_load_file($this->filename);
+		foreach ($repositories->repository as $repository) {
+			if (strval($repository["class"]) == $persistableClass) {
+				foreach ($repository->children() as $child) {
+					if (strval($child['id']) == $id) {
+						$mementoClass = new ReflectionClass(str_replace(".", "\\", $child->getName()));
+						$memento = $mementoClass->newInstanceWithoutConstructor();
+						foreach ($mementoClass->getProperties() as $property) {
+							$property->setAccessible(true);
+							$property->setValue($memento, $child[$property->getName()]);
+						}
+						return $memento->restore();
+					}
+				}
+			}
+		}
+		return null;
 	}
 
-	public function filter (Closure $predicate): Collection
+	public function filter (string $persistableClass, Closure $predicate): Collection
 	{
 		throw new \Exception("Method not implemented yet");
 	}

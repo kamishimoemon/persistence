@@ -12,20 +12,16 @@ class InMemoryDatabase implements Database
 
 	public function add (PersistableObject $po): int
 	{
-		$id = array_search($po, $this->objects);
-		if (is_int($id)) {
-			return $id + 1;
-		}
 		$this->objects[] = $po;
 		return count($this->objects);
 	}
 
-	public function remove (int $id): void
+	public function remove (string $persistableClass, int $id): void
 	{
 		unset($this->objects[$id - 1]);
 	}
 
-	public function get (int $id): ?PersistableObject
+	public function get (string $persistableClass, int $id): ?PersistableObject
 	{
 		if (isset($this->objects[$id - 1])) {
 			return $this->objects[$id - 1];
@@ -33,7 +29,7 @@ class InMemoryDatabase implements Database
 		return null;
 	}
 
-	public function filter (Closure $predicate): Collection
+	public function filter (string $persistableClass, Closure $predicate): Collection
 	{
 		$c = new Collection();
 		foreach ($this->objects as $po) {

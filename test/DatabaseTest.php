@@ -29,7 +29,7 @@ abstract class DatabaseTest extends TestCase
 	{
 		$po1 = new User("Darío Candotti", "dario.candotti@gmail.com");
 		$id = $this->db->add($po1);
-		$po2 = $this->db->get($id);
+		$po2 = $this->db->get(User::class, $id);
 
 		$this->assertSame($po1, $po2);
 	}
@@ -42,7 +42,7 @@ abstract class DatabaseTest extends TestCase
 		$po1 = new User("Darío Candotti", "dario.candotti@gmail.com");
 		$id = $this->db->add($po1);
 		$po1->setName("Darío");
-		$po2 = $this->db->get($id);
+		$po2 = $this->db->get(User::class, $id);
 
 		$this->assertEquals("Darío", $po2->name());
 	}
@@ -54,8 +54,8 @@ abstract class DatabaseTest extends TestCase
 	{
 		$po1 = new User("Darío Candotti", "dario.candotti@gmail.com");
 		$id = $this->db->add($po1);
-		$this->db->remove($id);
-		$po2 = $this->db->get($id);
+		$this->db->remove(User::class, $id);
+		$po2 = $this->db->get(User::class, $id);
 
 		$this->assertNull($po2);
 	}
@@ -69,8 +69,8 @@ abstract class DatabaseTest extends TestCase
 		$this->db->add(new User("Cesar Candotti", "candotti.cesar@gmail.com"));
 		$this->db->add(new User("Mauro Candotti", "cmduilio@gmail.com"));
 
-		$collection = $this->db->filter(function ($po) {
-			return $po->name() == "Darío Candotti";
+		$collection = $this->db->filter(User::class, function ($user) {
+			return $user->name() == "Darío Candotti";
 		});
 
 		$this->assertEquals(1, $collection->count());
@@ -129,5 +129,10 @@ class UserMemento implements Memento {
 	{
 		$visitor->setString("name", $this->name);
 		$visitor->setString("email", $this->email);
+	}
+
+	public function restore (): PersistableObject
+	{
+		return new User($this->name, $this->email);
 	}
 }
