@@ -14,6 +14,7 @@ use function simplexml_load_file;
 class XMLDatabase implements Database
 {
 	private string $filename;
+	private array $cache;
 
 	public function __construct (string $filename)
 	{
@@ -22,6 +23,7 @@ class XMLDatabase implements Database
 			throw new Exception("Couldn't open file {$filename}");
 		}
 		$this->filename = $filename;
+		$this->cache = [];
 	}
 
 	public function add (PersistableObject $po): int
@@ -37,6 +39,7 @@ class XMLDatabase implements Database
 				$memento->accept(new XMLMementoVisitor($child));
 				$repository["sequence"] = strval($id);
 				$repositories->asXML($this->filename);
+				$this->cache[$id] = $po;
 				return $id;
 			}
 		}
@@ -48,6 +51,7 @@ class XMLDatabase implements Database
 		$child->addAttribute("id", "1");
 		$memento->accept(new XMLMementoVisitor($child));
 		$repositories->asXML($this->filename);
+		$this->cache[1] = $po;
 		return 1;
 	}
 
@@ -58,6 +62,9 @@ class XMLDatabase implements Database
 
 	public function get (string $persistableClass, int $id): ?PersistableObject
 	{
+		if (isset($this->cache[$id])) {
+			return $this->cache[$id];
+		}
 		$repositories = simplexml_load_file($this->filename);
 		foreach ($repositories->repository as $repository) {
 			if (strval($repository["class"]) == $persistableClass) {
@@ -69,7 +76,9 @@ class XMLDatabase implements Database
 							$property->setAccessible(true);
 							$property->setValue($memento, $child[$property->getName()]);
 						}
-						return $memento->restore();
+						$po = $memento->restore();
+						$this->cache[$id] = $po;
+						return $po;
 					}
 				}
 			}
